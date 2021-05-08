@@ -32,6 +32,10 @@ namespace ShoppingCartHandler.BillHandlers
                         current +
                         $"{t.GetDiscountName()} - {t.GetDiscountPercent(),3}% off:{t.GetDiscountValue().ToString(),4}$\n")
                 : "No Offers";
+
+
+
+            Directory.CreateDirectory(writePath.Split(new char[] { '\\' })[0]);
             try
             {
                 using (var sw = new StreamWriter(writePath, false, Encoding.Default))
