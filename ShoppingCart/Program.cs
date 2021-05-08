@@ -8,7 +8,7 @@ namespace ShoppingCartHandler
 {
     static class Program
     {
-        private static string CONFIG_FILE_NAME = @"..\..\..\..\Setup\setup.json";
+        private static string CONFIG_FILE_NAME = @"Setup\setup.json";
         private static string OUTPUT_BILL_FILE_NAME = @"Bill\Bill.txt";
 
         /*private static readonly string[] input = {"Cake", "Cake", "Cake", "Cake", "Bread", "Bread", "Bread", "Bread", "Apple", "Apple", "Apple", "Apple", "Apple", "Apple"};*/
